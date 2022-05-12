@@ -15,4 +15,7 @@ class celdaListado: UITableViewCell
     @IBOutlet weak var lblOrientacion: UILabel!
     
     @IBOutlet weak var imgLogo: UIImageView!
+    
+    //prueba github.
+    
 }
