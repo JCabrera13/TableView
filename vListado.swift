@@ -267,6 +267,15 @@ class vListado: UITableViewController
     //asgregar datos remotos, faltar si se toca la celda, se habra otra vista.
     
     
+    //metodo que dispara al tocar alguna celda.
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let vista = (storyboard?.instantiateViewController(withIdentifier: "vDetalle")) as! vDetalle
+        vista.indice=indexPath.row
+        self.navigationController?.pushViewController(vista, animated: true);
+
+    }
+    
     
     
     

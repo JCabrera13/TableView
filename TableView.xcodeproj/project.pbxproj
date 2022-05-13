@@ -17,6 +17,7 @@
 		157BFA032816EC0D00B7395E /* vListado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157BFA022816EC0D00B7395E /* vListado.swift */; };
 		5507EE6F282742C000CDF891 /* celdaXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5507EE6E282742C000CDF891 /* celdaXib.xib */; };
 		5507EE71282743B300CDF891 /* celdaXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507EE70282743B300CDF891 /* celdaXib.swift */; };
+		552FE467282DAE4500E27AE5 /* vDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552FE466282DAE4500E27AE5 /* vDetalle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		157BFA022816EC0D00B7395E /* vListado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vListado.swift; sourceTree = "<group>"; };
 		5507EE6E282742C000CDF891 /* celdaXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = celdaXib.xib; sourceTree = "<group>"; };
 		5507EE70282743B300CDF891 /* celdaXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celdaXib.swift; sourceTree = "<group>"; };
+		552FE466282DAE4500E27AE5 /* vDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vDetalle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			children = (
 				5507EE70282743B300CDF891 /* celdaXib.swift */,
 				157A4B82281ADB6100325330 /* celdaListado.swift */,
+				552FE466282DAE4500E27AE5 /* vDetalle.swift */,
 				1565EA8428183BAF00F4E719 /* Datos.swift */,
 				157BFA022816EC0D00B7395E /* vListado.swift */,
 				5507EE6E282742C000CDF891 /* celdaXib.xib */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				157A4B83281ADB6100325330 /* celdaListado.swift in Sources */,
+				552FE467282DAE4500E27AE5 /* vDetalle.swift in Sources */,
 				157BF9EF2816E8AE00B7395E /* AppDelegate.swift in Sources */,
 				1565EA8528183BAF00F4E719 /* Datos.swift in Sources */,
 				5507EE71282743B300CDF891 /* celdaXib.swift in Sources */,
